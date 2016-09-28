@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <View
+        android:background="@color/foo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/v"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:elevation="35dp"
+        />
+    <View
+        android:background="@color/foo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/v2"
+        android:elevation="35dp"
+        android:layout_below="@+id/v"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp" />
+    <View
+        android:background="@color/colorPrimary"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/v3"
+        android:layout_marginTop="163dp"
+        android:elevation="30dp"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:background="@color/foo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/v4"
+        android:elevation="25dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="100dp"
+         />
+    <View
+        android:background="@color/colorAccent"
+        android:layout_width="75dp"
+        android:layout_height="120dp"
+        android:id="@+id/v5"
+        android:elevation="32dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginLeft="200dp"
+        />
+</RelativeLayout>
